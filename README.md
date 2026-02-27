@@ -25,4 +25,6 @@ G-code is a CNC (Control Numeric Control) programing for machinning tools. In th
 * From menu _Archive_ select _Document properties_ and adjust the page to the dimensions of your image.
 * At this point, from menu _Extensions_ select _Gcode generator_ and the option _Library tools_. For this exercise, the predefined selection is the best option. On the tool definitions, define the diameter tool in 5 mm, beacuse is the diameter of a comercial pencil, which will be the machinning tool in this case
 * From from menu _Extensions_ select _Gcode generator_ and the option _Orientation points_ to define the origin of the image in a two dimensional reference. From the displayed  menu you have to chose the option _Two points mode_ 
-* Finally from menu _Extensions_ select _Gcode generator_ and the option _Gcode path_ to define the name of output file and the path for saving it. 
+* Finally from menu _Extensions_ select _Gcode generator_ and the option _Gcode path_ to define the name of output file and the path for saving it.
+
+An step by step video can be found in the next <a href="https://youtu.be/H7UaoG4Wry4" title="video">link</a>
