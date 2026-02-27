@@ -18,3 +18,4 @@ or:
 ```
 pip install .
 ```
+visit the [wiki](https://github.com/etorresr/lite_6_examples/wiki) for details in the examples
