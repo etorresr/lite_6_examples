@@ -28,3 +28,24 @@ G-code is a CNC (Control Numeric Control) programing for machinning tools. In th
 * Finally from menu _Extensions_ select _Gcode generator_ and the option _Gcode path_ to define the name of output file and the path for saving it.
 
 An step by step video can be found in the next <a href="https://youtu.be/H7UaoG4Wry4" title="video">link</a>
+
+### Python program
+For the use of the  xArm-Python-SDK library is important to work in the  xArm-Python-SDK/example/wrapper/common path, in order to be abble to acces the complements required. From the examples provided by the library, the program has to initialize the robot, as shown hereafter:
+``` python
+import os
+import sys
+import time
+import re
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '../../..'))
+
+from xarm.wrapper import XArmAPI
+
+arm = XArmAPI(ip)
+arm.motion_enable(enable=True)
+arm.set_mode(0)
+arm.set_state(state=0)
+
+arm.move_gohome(wait=True)
+```
+
