@@ -67,4 +67,4 @@ with open('mario_gcode_0002.ngc') as gcode:
             yy = yy[1]
             arm.set_position(x=-44 - float(xx) , y=-228 - float(yy), z=210, roll=180, pitch=0, yaw=0, speed=100, wait=True)
 ```
-As can be seen, the reference plane is translated to the work space defined by the position of a piece of paper and the location of the robotic arm. The non uniformity of the work space generates some particular cases that have to be improbed. In the python code [_demo_gcode.py_]{/code/demo_gcode.py} is presented some of the special cases that has been taken into account for our exercise.
+As can be seen, the reference plane is translated to the work space defined by the position of a piece of paper and the location of the robotic arm. The non uniformity of the work space generates some particular cases that have to be improbed. In the python code [_demo_gcode.py_]{https://github.com/etorresr/lite_6_examples/blob/main/demo_gcode.py} is presented some of the special cases that has been taken into account for our exercise.
